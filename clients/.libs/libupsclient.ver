@@ -1,0 +1,21 @@
+{ global:
+upscli_add_host_cert;
+upscli_cleanup;
+upscli_connect;
+upscli_disconnect;
+upscli_fd;
+upscli_get;
+upscli_init;
+upscli_list_next;
+upscli_list_start;
+upscli_readline;
+upscli_readline_timeout;
+upscli_sendline;
+upscli_sendline_timeout;
+upscli_splitaddr;
+upscli_splitname;
+upscli_ssl;
+upscli_strerror;
+upscli_tryconnect;
+upscli_upserror;
+local: *; };
